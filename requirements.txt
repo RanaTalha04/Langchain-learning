@@ -1,8 +1,7 @@
 langchain
 langchain-core
 
-langchain-openai
-openai
+langchain-ollama
 
 langchain-anthropic
 
