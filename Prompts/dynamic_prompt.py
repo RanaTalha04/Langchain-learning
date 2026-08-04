@@ -1,6 +1,6 @@
 import streamlit as st
 from dotenv import load_dotenv
-from langchain_core.prompts import PromptTemplate
+from langchain_core.prompts import load_prompt
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 
 load_dotenv()
@@ -20,8 +20,16 @@ style_input = st.selectbox("Select Explaination Style: ", ["Beginner-friendly", 
 
 length_input = st.selectbox("Select Explaination Length: ", ["Short (1-2 lines)", "Medium (4-5 lines)", "Long (15-20 lines)"])
 
+template = load_prompt('template.json')
+
+prompt = template.invoke({
+    'prompt_input': prompt_input,
+    'style_input': style_input,
+    'length_input': length_input
+})
 
 
 
 if st.button("Summarize"):
-    ...
+    result = model.invoke(prompt)
+    st.write(result.content)
