@@ -1,12 +1,8 @@
 langchain
 langchain-core
+langchain-community
 
 langchain-ollama
-
-langchain-anthropic
-
-langchain-google-genai
-google-generativeai
 
 langchain-huggingface
 transformers
@@ -16,3 +12,4 @@ python-dotenv
 
 numpy
 scikit-learn
+streamlit
