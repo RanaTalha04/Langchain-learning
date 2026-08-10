@@ -1,15 +1,15 @@
 langchain
 langchain-core
+langchain-community
 
 langchain-ollama
-
 langchain-huggingface
-transformers
 huggingface-hub
 
 python-dotenv
 
 numpy
 scikit-learn
+transformers
 streamlit
 pydantic
