@@ -8,6 +8,8 @@ huggingface-hub
 
 python-dotenv
 
+grandalf
+
 numpy
 scikit-learn
 transformers
