@@ -11,7 +11,8 @@ python-dotenv
 grandalf
 
 numpy
+pydantic
+notebook
+streamlit
 scikit-learn
 transformers
-streamlit
-pydantic
