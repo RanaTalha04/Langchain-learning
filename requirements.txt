@@ -8,6 +8,7 @@ huggingface-hub
 
 python-dotenv
 
+pypdf
 grandalf
 
 numpy
