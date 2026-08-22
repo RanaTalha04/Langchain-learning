@@ -2,10 +2,14 @@ langchain
 langchain-core
 langchain-community
 
+huggingface-hub
 langchain-ollama
 langchain-huggingface
-huggingface-hub
 
+sentence-transformers
+
+chromadb
+tiktoken
 python-dotenv
 
 pypdf
